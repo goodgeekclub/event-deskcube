@@ -1,1 +1,15 @@
-<p>home-objective works!</p>
+<div class="app-objective">
+    <div class="title">
+        <span>"วัตถุประสงค์"</span>
+    </div>
+    <div class="items" >
+        <div class="item" *ngFor="let item of items">
+            <div class="image">
+                <img [src]="item.image" alt="">
+            </div>
+            <div class="text">
+                <span>{{item.text}}</span>
+            </div>
+        </div>
+    </div>
+</div>
