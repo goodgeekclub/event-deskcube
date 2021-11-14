@@ -1,0 +1,17 @@
+h2 {
+  margin-bottom: 5px;
+}
+h3 {
+  margin-top: 0;
+}
+.description {
+  width: 35vw;
+  min-width: 420px;
+}
+img {
+  width: 100%;
+  margin-top: 20px;
+}
+.objective-tile {
+  margin-top: 30px;
+}
