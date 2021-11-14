@@ -1,1 +1,19 @@
-<p>home-objective works!</p>
+<div class="app-objective">
+    <div class="title">
+        <h2>"วัตถุประสงค์"</h2>
+        <mat-icon
+        class="header-icon"
+        aria-hidden="false"
+        aria-label="list item">checklist</mat-icon>
+    </div>
+    <div class="items">
+        <div class="item" *ngFor="let item of items">
+            <div class="image">
+                <img [src]="item.image" alt="">
+            </div>
+            <div class="description">
+                <p>{{item.text}}</p>
+            </div>
+        </div>
+    </div>
+</div>

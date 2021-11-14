@@ -1,0 +1,39 @@
+.app-objective {
+  padding: 1em;
+}
+.app-objective .title {
+  padding: 1em;
+  text-align: center;
+}
+.app-objective .title span {
+  font-size: 4em;
+}
+
+.app-objective .items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.app-objective .items .item {
+  flex: 1;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app-objective .items .item .image {
+  max-width: 30em;
+  min-width: 15em;
+}
+.app-objective .items .item .image img {
+  width: 100%;
+}
+.app-objective .items .item .text {
+  text-align: center;
+  padding: 1em;
+}
+.app-objective .items .item .text span {
+  font-size: 1.5em;
+}

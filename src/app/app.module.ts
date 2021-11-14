@@ -12,6 +12,8 @@ import { HomeWhatComponent } from './containers/home/home-what/home-what.compone
 import { HomeCoverComponent } from './containers/home/home-cover/home-cover.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import { HomeLocationComponent } from './containers/home/home-location/home-location.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import {MatButtonModule} from '@angular/material/button';
     HomeWhatComponent,
     HomeCoverComponent,
     SpeakersComponent,
+    HomeLocationComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import {MatButtonModule} from '@angular/material/button';
     SharedComponentsModule,
     MatCardModule,
     MatButtonModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
