@@ -1,0 +1,73 @@
+@import "~@angular/material/theming";
+
+@include mat-core();
+
+$dark-midnight-palette: (
+  50 : #e1e7ec,
+  100 : #b4c3d0,
+  200 : #839cb0,
+  300 : #517490,
+  400 : #2b5679,
+  500 : #063861,
+  600 : #053259,
+  700 : #042b4f,
+  800 : #032445,
+  900 : #021733,
+  A100 : #6b9cff,
+  A200 : #387aff,
+  A400 : #0558ff,
+  A700 : #004eeb,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #ffffff,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+  )
+);
+
+/* For use in src/lib/core/theming/_palette.scss */
+$candy-pink-palette: (
+  50 : #fceeee,
+  100 : #f6d6d6,
+  200 : #f1baba,
+  300 : #eb9e9e,
+  400 : #e68a8a,
+  500 : #e27575,
+  600 : #df6d6d,
+  700 : #da6262,
+  800 : #d65858,
+  900 : #cf4545,
+  A100 : #ffffff,
+  A200 : #fff1f1,
+  A400 : #ffbebe,
+  A700 : #ffa4a4,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #000000,
+    700 : #000000,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$my-theme-primary: mat-pallette($candy-pink-palette);
+//$my-theme-accent: 
