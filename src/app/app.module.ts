@@ -10,6 +10,10 @@ import {SharedComponentsModule} from './shared-components/shared-components.modu
 import { HomeObjectiveComponent } from './containers/home/home-objective/home-objective.component';
 import { HomeWhatComponent } from './containers/home/home-what/home-what.component';
 import { HomeCoverComponent } from './containers/home/home-cover/home-cover.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import { HomeLocationComponent } from './containers/home/home-location/home-location.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -20,6 +24,7 @@ import { HomeCoverComponent } from './containers/home/home-cover/home-cover.comp
     HomeWhatComponent,
     HomeCoverComponent,
     SpeakersComponent,
+    HomeLocationComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +32,9 @@ import { HomeCoverComponent } from './containers/home/home-cover/home-cover.comp
     BrowserAnimationsModule,
     FlexLayoutModule,
     SharedComponentsModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
