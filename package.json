@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --aot --configuration production --output-path docs --base-href=event-deskcube",
+    "build": "ng build --aot --configuration production --output-path docs --base-href=https://goodgeekclub.github.io/event-deskcube/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
