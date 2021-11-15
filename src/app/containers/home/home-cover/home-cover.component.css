@@ -9,11 +9,13 @@ body{
 .nav{
     background-color:#e27676 ;
     height: 50px;
+    width: 100%;
 }   
 .content img{
-    padding-left: 20px;
-    height: 100%;
-    padding-left: 100px;
+    min-height: 320px;
+    height: 50vw;
+    text-align: center;
+    
 }
 .content{
     display: flex;
@@ -21,6 +23,7 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 5rem;
 }
 .content .h h1{
     padding-right: 5rem;  
