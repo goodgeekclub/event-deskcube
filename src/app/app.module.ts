@@ -27,7 +27,7 @@ import {MatIconModule} from '@angular/material/icon';
     HomeLocationComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
