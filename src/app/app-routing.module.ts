@@ -4,8 +4,7 @@ import {HomeComponent} from './containers/home/home.component';
 import {SpeakersComponent} from './containers/speakers/speakers.component'; // CLI imports router
 
 const routes: Routes = [
-  { path: '',  pathMatch:'full', redirectTo: 'home'},
-  { path: 'home', component: HomeComponent },
+  { path: '',  pathMatch:'full', component: HomeComponent},
   { path: 'speakers', component: SpeakersComponent },
   { path: '**', redirectTo: '/' },
 ]; // sets up routes constant where you define your routes
