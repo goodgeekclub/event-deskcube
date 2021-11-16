@@ -1,15 +1,19 @@
 .example-spacer {
   flex: 1 1 auto;
 }
-.logo a img{
+.logo img {
   padding: 1em;
   max-width: 10em;
   min-width: 5em;
 }
 mat-toolbar{
   background-color: var(--my-dark-midnight);
+  box-shadow: 0 3px 5px -1px #0003;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
-.manu a{
+.menu a {
   padding: 2em;
   color: snow;
   text-decoration: none;

@@ -1,24 +1,14 @@
 <mat-toolbar color="primary">
   <div class="logo">
-  <a href="#">
-
-      <img src="assets/images/logo.png" alt="">
-  </a>
-</div>
-  <div class= "manu">
-    <a href="">Home</a>
-    <a href="">Agenda</a>
-    <a href="">Speakers</a>
-    <a href="">Location</a>
-    <a href="">Pricing</a>
-    <a href="">Contact Us</a>
-    <a href="">Staff</a>
+    <img routerLink="/" src="assets/images/logo.png" alt="deskcube-logo">
   </div>
-  <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-    <mat-icon>favorite</mat-icon>
-  </button>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-    <mat-icon>share</mat-icon>
-  </button>
+  <div class= "menu">
+    <a routerLink="/">Home</a>
+    <a routerLink="" fragment="agenda">Agenda</a>
+    <a routerLink="/speakers">Speakers</a>
+    <a routerLink="/" fragment="location">Location</a>
+    <a routerLink="/" fragment="pricing">Pricing</a>
+    <a routerLink="">Contact Us</a>
+    <a routerLink="/staff">Staff</a>
+  </div>
 </mat-toolbar>
