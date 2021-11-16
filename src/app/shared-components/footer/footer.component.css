@@ -1,0 +1,20 @@
+.objective {
+  position: relative;
+  padding-top: 125px;
+}
+.logo-stack-top {
+  position: absolute;
+  z-index: 1;
+  left: 80%;
+  bottom: 4vw;
+}
+img.logo {
+  width: 70%;
+}
+img.object {
+  width: 100%;
+}
+h3 {
+  margin-left: 20px;
+  margin-top: 0px;
+}
