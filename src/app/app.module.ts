@@ -14,6 +14,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeLocationComponent } from './containers/home/home-location/home-location.component';
 import {MatIconModule} from '@angular/material/icon';
+import { HomeCalendarComponent } from './containers/home/home-calendar/home-calendar.component';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import {MatIconModule} from '@angular/material/icon';
     HomeCoverComponent,
     SpeakersComponent,
     HomeLocationComponent,
+    HomeCalendarComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -35,6 +38,7 @@ import {MatIconModule} from '@angular/material/icon';
     MatCardModule,
     MatButtonModule,
     MatIconModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,24 @@
+mat-card {
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table,
+th,td {
+  border: 0.25em solid var(--my-canary);
+  border-radius: 5px;
+}
+th,td {
+  color: snow;
+  font-weight: 300;
+  font-size: 24px;
+}
+.center{
+  text-align: center;
+  padding: 0!important;
+}
+.paragraph{
+  padding-left: 1em;
+}
