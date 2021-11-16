@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-icon {
+  font-size: 60px;
+}
+.section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  height: 480px;
+  background-color: snow;
+  border: 2px solid #e27575;
+}
+
+@media (max-width: 720px) {
+  .section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card {
+    margin-top: 40px;
+  }
+}
