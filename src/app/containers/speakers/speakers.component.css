@@ -1,0 +1,11 @@
+.topic{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.topic h1 {
+  margin-bottom: 0;
+}
+.topic .header-icon {
+  font-size: 60px;
+  margin-left: -20px;
+}
