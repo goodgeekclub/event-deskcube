@@ -19,12 +19,20 @@
   color: snow;
   text-decoration: none;
 }
+.menu-icon-button {
+  background-color: var(--my-dark-midnight);
+  color: snow;
+}
 
 ::ng-deep .cdk-overlay-container {
   z-index: 2000;
   position: fixed;
   top: 20px;
-  right: -20px;
-  display: flex;
-  justify-content: flex-end;
+  right: -80vw;
+}
+
+.menu-button {
+  width: 100px;
+  color: snow;
+  background-color: #424242;
 }
