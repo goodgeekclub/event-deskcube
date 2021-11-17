@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="head">
+    <img [src]="profile?.avatarUrl || defaultImg" alt="speaker-img">
+    <h2>{{profile?.name || '-'}}</h2>
+    <hr>
+  </div>
+  <div class="content">
+    <div class="list">
+      <h3>ตำเเหน่ง</h3><p>{{profile?.position || '-'}}</p>
+      <h3>Experience - ประสบการณ์ อื่นๆ</h3><p>{{profile?.exp || '-'}}</p>
+      <h3>TOPICS - หัวข้อ</h3><p>{{profile?.topic || '-'}}</p>
+    </div>
+  </div>
+</div>

@@ -5,6 +5,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -13,11 +14,13 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports:[
     CommonModule,
+    RouterModule,
     MatIconModule,
     MatToolbarModule,
     MatButtonModule,
   ],
   exports:[
+    RouterModule,
     NavbarComponent,
     FooterComponent,
   ],

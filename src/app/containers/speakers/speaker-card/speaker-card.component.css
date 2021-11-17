@@ -1,0 +1,36 @@
+.card {
+  width: 300px;
+  min-height: 500px;
+  padding: 25px;
+  box-shadow: 3px 3px 10px #839cb0;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.head {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.head img {
+  width: 50%;
+  border-radius: 50%;
+}
+.head h2 {
+  font-size: 26px;
+  color: snow;
+  margin-bottom: -5px;
+}
+.head hr {
+  width: 40%;
+  background-color: var(--my-canary);
+  border-color: var(--my-canary);
+}
+
+.content h3 {
+  font-size: 22px;
+  color: var(--my-canary);
+  margin-bottom: -20px;
+}
+.content p {
+  font-size: 18px;
+  color: snow;
+}
