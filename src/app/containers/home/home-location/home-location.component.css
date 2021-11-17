@@ -5,8 +5,9 @@ h3 {
   margin-top: 0;
 }
 .description {
-  width: 30vw;
-  min-width: 360px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 540px;
 }
 img {
   width: 100%;

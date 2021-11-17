@@ -1,0 +1,24 @@
+.title-box {
+  width: 100%;
+  text-align: left;
+  margin-bottom: -20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,td {
+  border: 0.25em solid var(--my-canary);
+  border-radius: 5px;
+  color: snow;
+  font-weight: 300;
+  font-size: calc(14px + 1vw);
+}
+
+.center{
+  text-align: center;
+  padding: 5px 10px 5px 10px!important;
+}
+.paragraph{
+  padding-left: 1em;
+}
