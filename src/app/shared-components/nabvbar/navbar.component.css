@@ -6,12 +6,13 @@
   max-width: 10em;
   min-width: 5em;
 }
-mat-toolbar{
+.app-toolbar{
   background-color: var(--my-dark-midnight);
   box-shadow: 0 3px 5px -1px #0003;
-  position: sticky;
-  top: 0;
-  z-index: 3;
+  position: fixed;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0!important;
+  z-index: 1000!important;
 }
 .menu a {
   padding: 2em;
