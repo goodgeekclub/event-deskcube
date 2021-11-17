@@ -1,12 +1,11 @@
 <div fxLayout="column" fxLayoutAlign="center center">
   <h2>"ตารางเวลา"</h2>
   <mat-icon class="header-icon" aria-hidden="false" aria-label="list item">event_available</mat-icon>
-  <mat-card fxLayout="column" fxLayoutAlign="start center">
-    <app-home-calendar-table title="11 ธันวาคม 2564" [dataSource]="day1"></app-home-calendar-table>
-    <app-home-calendar-table title="12 ธันวาคม 2564" [dataSource]="day2"></app-home-calendar-table>
-  </mat-card>
+  <app-home-calendar-table title="11 ธันวาคม 2564" [dataSource]="day1"></app-home-calendar-table>
+  <div style="height: 20px"></div>
+  <app-home-calendar-table title="12 ธันวาคม 2564" [dataSource]="day2"></app-home-calendar-table>
   <div class="tail">
-    <a routerLink="/speaker">
+    <a routerLink="/speakers">
       รายนามวิทยากร →
     </a>
   </div>

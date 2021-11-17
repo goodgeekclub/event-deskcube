@@ -6,13 +6,15 @@
   max-width: 10em;
   min-width: 5em;
 }
-.app-toolbar{
+.app-toolbar {
+  -webkit-backface-visibility: hidden;
   background-color: var(--my-dark-midnight);
   box-shadow: 0 3px 5px -1px #0003;
   position: fixed;
   position: -webkit-sticky; /* For macOS/iOS Safari */
   top: 0;
   z-index: 3;
+  width: 100%;
 }
 .menu a {
   padding: 2rem;
@@ -28,7 +30,7 @@
   z-index: 2000;
   position: fixed;
   top: 20px;
-  right: -78vw;
+  right: calc(-100vw + 140px);
 }
 
 .menu-button {

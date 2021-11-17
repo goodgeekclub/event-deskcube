@@ -11,8 +11,8 @@ p {
   margin-bottom: 0;
 }
 .description {
-  width: 39vw;
-  min-width: 360px;
+  width: 50%;
+  min-width: 320px;
   /*margin-left: 150px;*/
 }
 .description img {
