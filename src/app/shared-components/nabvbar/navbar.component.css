@@ -1,7 +1,8 @@
 .example-spacer {
-  flex: 1 1 auto;
+
 }
 .logo img {
+
   padding: 1em;
   max-width: 10em;
   min-width: 5em;
@@ -15,7 +16,12 @@
   z-index: 1000!important;
 }
 .menu a {
-  padding: 2em;
+  padding: 2rem;
   color: snow;
   text-decoration: none;
+}
+
+mat-menu {
+  margin-top: -100px;
+  z-index: 2000;
 }
