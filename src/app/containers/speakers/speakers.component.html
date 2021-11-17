@@ -1,13 +1,19 @@
 
-<div class="header">
-  <h1>"Speakers"</h1>
-  <mat-icon
-    class="header-icon"
-    aria-hidden="false"
-    aria-label="speaker">campaign</mat-icon>
-</div>
-<div class="section">
-  <div class="card"></div>
-  <div class="card"></div>
-  <div class="card"></div>
+<div class="container">
+  <div class="topic">
+    <h1>Speakers</h1>
+    <mat-icon
+      class="header-icon"
+      aria-hidden="false"
+      aria-label="list item">campaign</mat-icon>
+  </div>
+  <div
+    fxLayout="row wrap"
+    fxLayoutAlign="space-evenly"
+  fxLayoutGap="20px">
+    <app-speaker-card
+      *ngFor="let speaker of speakers"
+      [profile]="speaker">
+    </app-speaker-card>
+  </div>
 </div>

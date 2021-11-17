@@ -1,36 +1,11 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.topic{
+  text-align: center;
+  margin-bottom: 20px;
 }
-.header-icon {
+.topic h1 {
+  margin-bottom: 0;
+}
+.topic .header-icon {
   font-size: 60px;
-}
-.section {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.card {
-  width: 320px;
-  height: 480px;
-  background-color: snow;
-  border: 2px solid #e27575;
-}
-
-@media (max-width: 720px) {
-  .section {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .card {
-    margin-top: 40px;
-  }
+  margin-left: -20px;
 }
