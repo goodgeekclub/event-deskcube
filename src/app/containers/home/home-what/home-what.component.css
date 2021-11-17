@@ -1,26 +1,28 @@
-  h1 {
-    margin-bottom: -10px;
-  }
-  h3 {
-    margin-top: 0px;
-    margin-bottom: 55px;
-    font-size: 42px;
-    font-weight: 300;
-  }
-  p {
-    margin-bottom: 0px;
-  }
-  .description {
-    width: 39vw;
-    min-width: 420px;
-    margin-left: 150px;
-  }
-  img {
-    width: 70%;
-    margin-top: 70px;
-  }
-  .title {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  
+h1 {
+  margin-bottom: -10px;
+}
+h3 {
+  margin-top: 0px;
+  margin-bottom: 55px;
+  font-size: 42px;
+  font-weight: 300;
+}
+p {
+  margin-bottom: 0;
+}
+.description {
+  width: 39vw;
+  min-width: 360px;
+  /*margin-left: 150px;*/
+}
+.description img {
+  width: 70%;
+  margin-top: 70px;
+  text-align: center;
+  min-width: 320px;
+  max-width: 400px;
+}
+.title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

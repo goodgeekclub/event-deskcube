@@ -1,20 +1,45 @@
-.objective {
-  position: relative;
-  padding-top: 125px;
-}
-.logo-stack-top {
+.footer {
   position: absolute;
-  z-index: 1;
-  left: 80%;
-  bottom: 4vw;
-}
-img.logo {
-  width: 70%;
-}
-img.object {
   width: 100%;
+  padding-top: 0px;
+  margin-top: 50px;
+  background: var(--my-canary);
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 150%;
+  }
+}
+
+.iconfb:hover {
+  opacity: 0.7;
+}
+.iconig:hover {
+  opacity: 0.7;
+}
+
+.iconfb {
+  width: 15%;
+  height: auto;
+  padding-right: 0.5vw;
+}
+.iconig {
+  width: 15%;
+  height: auto;
+}
+
+.logo-text {
+  margin-top: 30px;
+}
+
+.text {
+  margin-top: 4.5px;
+}
+
+p {
+  margin-top: 5px;
 }
 h3 {
-  margin-left: 20px;
-  margin-top: 0px;
+  margin-bottom: 5px;
 }

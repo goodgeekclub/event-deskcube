@@ -11,11 +11,28 @@
   box-shadow: 0 3px 5px -1px #0003;
   position: fixed;
   position: -webkit-sticky; /* For macOS/iOS Safari */
-  top: 0!important;
-  z-index: 1000!important;
+  top: 0;
+  z-index: 3;
 }
 .menu a {
-  padding: 2em;
+  padding: 2rem;
   color: snow;
   text-decoration: none;
+}
+.menu-icon-button {
+  background-color: var(--my-dark-midnight);
+  color: snow;
+}
+
+::ng-deep .cdk-overlay-container {
+  z-index: 2000;
+  position: fixed;
+  top: 20px;
+  right: -80vw;
+}
+
+.menu-button {
+  width: 100px;
+  color: snow;
+  background-color: #424242;
 }
