@@ -1,45 +1,43 @@
 .footer {
   position: absolute;
   width: 100%;
-  padding-top: 0px;
   margin-top: 50px;
   background: var(--my-canary);
+  padding-bottom: 5px;
 }
 
-@media screen and (max-width: 600px) {
-  .footer {
-    width: 150%;
-  }
+p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .iconfb:hover {
   opacity: 0.7;
 }
-.iconig:hover {
-  opacity: 0.7;
-}
-
 .iconfb {
   width: 15%;
   height: auto;
-  padding-right: 0.5vw;
 }
+
 .iconig {
   width: 15%;
   height: auto;
 }
-
-.logo-text {
-  margin-top: 30px;
+.iconig:hover {
+  opacity: 0.7;
 }
 
+img {
+  margin-top: 10px;
+  width: 20vw;
+  max-width: 120px;
+}
 .text {
-  margin-top: 4.5px;
-}
-
-p {
-  margin-top: 5px;
-}
-h3 {
-  margin-bottom: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: -5px;
 }

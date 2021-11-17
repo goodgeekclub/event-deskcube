@@ -34,14 +34,14 @@
 /*    font-size: 50px;    */
 /*}*/
 img {
-  width: 25vw;
-  min-width: 240px;
+  width: 25%;
+  min-width: 220px;
   max-width: 320px;
   text-align: center;
 }
 .description {
-  width: 40vw;
-  min-width: 520px;
+  /*width: 40vw;*/
+  min-width: 360px;
   text-align: center;
 }
 h1 {
