@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {Routes, RouterModule, PreloadAllModules} from '@angular/router';
 import {HomeComponent} from './containers/home/home.component';
 import {SpeakersComponent} from './containers/speakers/speakers.component'; // CLI imports router
 
@@ -12,6 +12,7 @@ const routes: Routes = [
 // configures NgModule imports and exports
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
+    preloadingStrategy: PreloadAllModules,
     initialNavigation: 'enabled',
     scrollPositionRestoration: 'enabled',
     anchorScrolling: 'enabled',
