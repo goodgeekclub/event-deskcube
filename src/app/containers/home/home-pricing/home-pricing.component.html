@@ -1,17 +1,26 @@
-<div fxLayout="column" fxLayoutAlign="center center">
+<div
+  fxLayout="column"
+  fxLayoutAlign="center center">
     <h2>"บัตรร่วมงาน"</h2>
     <mat-icon class="header-icon" aria-hidden="false" aria-label="list item">sell</mat-icon><br>
 </div>
-<div class="container" fxLayout="row" fxLayoutAlign="space-around start" fxLayout.lt-md="column"
-    fxLayoutAlign.lt-md="start center" fxLayoutGap="2rem" fxLayoutGap.lt-md="1rem">
+<div
+  fxLayout="row"
+  fxLayoutAlign="space-around start"
+  fxLayout.lt-md="column"
+  fxLayoutAlign.lt-md="start center"
+  fxLayoutGap="2rem"
+  fxLayoutGap.lt-md="1rem">
       <div
         *ngFor="let card of cards;"
         [style.background-color]="card.color"
+        fxLayout="column"
+        fxLayoutAlign="space-between"
         class="item">
-          <h3>{{card.title}}</h3>
-          <p>{{card.desc}}</p>
+        <h3>{{card.title}}</h3>
+        <p>{{card.desc}}</p>
         <a href="https://www.eventpop.me/e/11968/deskcube/#event-tickets" target="_blank">
-          <button mat-raised-button>MORE</button>
+          <button mat-flat-button>MORE</button>
         </a>
       </div>
 </div>
