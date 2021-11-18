@@ -1,6 +1,10 @@
 <div class="card">
   <div class="head">
-    <img [src]="profile?.avatarUrl || defaultImg" alt="speaker-img">
+    <picture>
+      <source [srcset]="(profile?.avatarUrl  || defaultImg).replace('.png', '.avif')" type="image/avif"/>
+      <source [srcset]="(profile?.avatarUrl || defaultImg).replace('.png', '.webp')" type="image/webp"/>
+      <img [src]="profile?.avatarUrl || defaultImg" alt="speaker-img" loading="lazy">
+    </picture>
     <h2>{{profile?.name || '-'}}</h2>
     <hr>
   </div>

@@ -16,7 +16,7 @@ done
 
 echo "=== Angular build Pre-Render ==="
 npm run prerender
-aws s3 sync $dist $bucket --delete
+aws s3 sync $dist $bucket --delete --cache-control max-age=31536000
 echo "AWS S3 is synced"
 echo "Waiting S3 Cached for 5 second"
 sleep 5

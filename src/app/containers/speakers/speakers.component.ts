@@ -9,7 +9,7 @@ import {SpeakerProfile} from './speaker-card/speaker-card.component';
 export class SpeakersComponent implements OnInit {
   speakers: SpeakerProfile[] = [
     {
-      avatarUrl: 'assets/images/speakers/na.jpg',
+      avatarUrl: 'assets/images/speakers/na.png',
       name: 'พี่เน',
       position: 'Founder GoodGeek',
       exp: 'Working Data Processing Lead at Non-Profit Org',
@@ -37,7 +37,7 @@ export class SpeakersComponent implements OnInit {
       topic: 'การใช้งานเทคนิค Basic Canva',
     },
     {
-      avatarUrl: 'assets/images/speakers/art.JPG',
+      avatarUrl: 'assets/images/speakers/art.png',
       name: 'พี่อาร์ต',
       position: 'นักศึกษา',
       exp: 'มหาวิยาลัยศรีปทุม คณะเทคโนโลยีสารสนเทศ สาขาเทคโนโลยีสารสนเทศและการสื่อสาร ',
