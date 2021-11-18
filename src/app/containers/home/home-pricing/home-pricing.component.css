@@ -1,6 +1,14 @@
 .container{
     display: flex;
 }
+.item {
+  width: 40em;
+  max-width: 360px;
+  height: 20em;
+  background-color: var(--my-canary);
+  margin: 1em;
+  border-radius: 1em;
+}
 .container .item-1{
     width: 40em;
     max-width: 360px;
@@ -8,7 +16,7 @@
     background-color: var(--my-canary);
     margin: 1em;
     border-radius: 1em;
-    align-items: center;
+    /*align-items: center;*/
 }
 .container .item-2{
     width: 40em;
@@ -27,7 +35,7 @@
     border-radius: 1em;
 }
 h3{
-   text-align: center; 
+   text-align: center;
 }
 p{
     text-align: center;
@@ -35,9 +43,9 @@ p{
 button{
     width: 10em;
     height: 3em;
-    margin: -5em -5em; 
+    margin: -5em -5em;
     position:relative;
-    top:10%; 
+    top:10%;
     left:50%;
     border-radius:10px;
 }

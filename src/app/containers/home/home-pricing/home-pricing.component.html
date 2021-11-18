@@ -4,25 +4,14 @@
 </div>
 <div class="container" fxLayout="row" fxLayoutAlign="space-around start" fxLayout.lt-md="column"
     fxLayoutAlign.lt-md="start center" fxLayoutGap="2rem" fxLayoutGap.lt-md="1rem">
-    <div class="item-1">
-        <h3>Free</h3>
-        <p>สำหรับผู้สมัคร 5 ท่านแรก</p>
-        <button onclick="
-        window.open('https://www.eventpop.me/e/11968/deskcube/#event-tickets','_blank')"
-            mat-raised-button>MORE</button>
-    </div>
-    <div class="item-2">
-        <h3>159</h3>
-        <p>ทำภารกิจพิเศษ</p>
-        <button onclick="
-        window.open('https://www.eventpop.me/e/11968/deskcube/#event-tickets','_blank')"
-            mat-raised-button>MORE</button>
-    </div>
-    <div class="item-3">
-        <h3>199</h3>
-        <p>เข้าร่วมกิจกรรมแบบไร้เงื่อนไข</p>
-        <button onclick="
-        window.open('https://www.eventpop.me/e/11968/deskcube/#event-tickets','_blank')"
-            mat-raised-button>MORE</button>
-    </div>
+      <div
+        *ngFor="let card of cards;"
+        [style.background-color]="card.color"
+        class="item">
+          <h3>{{card.title}}</h3>
+          <p>{{card.desc}}</p>
+        <a href="https://www.eventpop.me/e/11968/deskcube/#event-tickets" target="_blank">
+          <button mat-raised-button>MORE</button>
+        </a>
+      </div>
 </div>
