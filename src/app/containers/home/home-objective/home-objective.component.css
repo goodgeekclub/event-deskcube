@@ -29,6 +29,7 @@
 }
 .app-objective .items .item .image img {
   width: 90%;
+  height: auto;
 }
 .app-objective .items .item .text {
   text-align: center;

@@ -17,6 +17,7 @@ p {
 }
 .description img {
   width: 70%;
+  height: auto;
   margin-top: 70px;
   text-align: center;
   min-width: 320px;

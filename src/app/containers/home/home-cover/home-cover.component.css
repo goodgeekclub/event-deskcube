@@ -37,6 +37,7 @@ img {
   width: 25%;
   min-width: 180px;
   max-width: 280px;
+  height: auto;
   text-align: center;
 }
 
