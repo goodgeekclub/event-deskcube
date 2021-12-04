@@ -19,6 +19,7 @@ import {MatTableModule} from '@angular/material/table';
 import { SpeakerCardComponent } from './containers/speakers/speaker-card/speaker-card.component';
 import { HomePricingComponent } from './containers/home/home-pricing/home-pricing.component';
 import { HomeCalendarTableComponent } from './containers/home/home-calendar/home-calendar-table/home-calendar-table.component';
+import { HomeSpeakersclassComponent } from './containers/home/home-speakersclass/home-speakersclass.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { HomeCalendarTableComponent } from './containers/home/home-calendar/home
     SpeakerCardComponent,
     HomePricingComponent,
     HomeCalendarTableComponent,
+    HomeSpeakersclassComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
